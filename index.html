@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Creativaly</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://yastatic.net/bem-components/latest/desktop/bem-components.css"
+    />
+    <script src="https://yastatic.net/bem-components/latest/desktop/bem-components.js+bemhtml.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body class="page">
+    <h1 class="visually-hidden">Onetown website</h1>
+
+    <!-- Header -->
+    <header class="header page__header container" id="header">
+      <div class="header__layout">
+        <h2 class="header__title title visually-hidden">Page header</h2>
+
+        <a class="logo header__logo link" href="#">
+          <span class="logo__text"
+            ><span class="logo__text logo__text_bold">One</span>town
+          </span>
+        </a>
+
+        <nav
+          class="nav nav_size_m nav_color_white nav_view_header header__nav"
+          id="nav"
+        >
+          <ul class="nav__list list">
+            <li class="nav__item nav__item-divider">
+              <a
+                class="link nav__link nav__link_animated-underline"
+                href="#about"
+                >About us</a
+              >
+            </li>
+            <li class="nav__item nav__item-divider">
+              <a
+                class="link nav__link nav__link_animated-underline"
+                href="#works"
+                >Work</a
+              >
+            </li>
+            <li class="nav__item nav__item-divider">
+              <a
+                class="link nav__link nav__link_animated-underline"
+                href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav__item nav__item-divider">
+              <a
+                class="link nav__link nav__link_animated-underline"
+                href="#blog"
+                >Blog</a
+              >
+            </li>
+            <li class="nav__item nav__item-divider">
+              <a class="link nav__link nav__link_animated-underline" href="#"
+                >Careers</a
+              >
+            </li>
+            <li class="nav__item nav__item-divider">
+              <a class="link nav__link nav__link_animated-underline" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- header__layout end -->
+    </header>
+
+    <main class="main page__main">
+      <h2 class="visually-hidden">.Onetown main page</h2>
+
+      <!-- Banner Section -->
+      <section class="banner banner__content page__banner">
+        <h3 class="banner__title section__title visually-hidden">
+          Baner section with slider
+        </h3>
+
+        <div class="slider slider_view_banner banner__slider">
+          <div class="slider__content">
+            <button
+              class="button button_theme_islands button_size_m button_type_link 
+                     button__control button_view_pseudo slider__control 
+                     slider__control_view_prev i-bem"
+              role="button"
+              type="button"
+            >
+              <span class="icon icon_arrow_left">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="11px"
+                  height="20px"
+                >
+                  <path
+                    class="slider__arrow-svg"
+                    fill-rule="evenodd"
+                    fill="rgb(255, 255, 255)"
+                    d="M11.000,2.307 L4.125,9.999 L11.000,17.692 L8.937,20.000 L-0.000,9.999 L8.937,-0.001 L11.000,2.307 Z"
+                  />
+                </svg>
+              </span>
+              <span class="button__text visually-hidden">Prev</span>
+            </button>
+
+            <button
+              class="button button_theme_islands button_size_m button_type_link
+                     button__control button_view_pseudo slider__control
+                     slider__control_view_next i-bem"
+              role="button"
+              data-bem='{"button":{}}'
+              type="button"
+            >
+              <span class="icon icon_arrow_left">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="11px"
+                  height="20px"
+                >
+                  <path
+                    class="slider__arrow-svg"
+                    fill-rule="evenodd"
+                    fill="rgb(255, 255, 255)"
+                    d="M-0.000,2.307 L6.875,9.999 L-0.000,17.692 L2.062,20.000 L11.000,9.999 L2.062,-0.001 L-0.000,2.307 Z"
+                  />
+                </svg>
+              </span>
+              <span class="button__text visually-hidden">Next</span>
+            </button>
+
+            <ul class="slider__list list">
+              <li class="slide slide_view_banner slider__item">
+                <h4 class="slide__title slider__item-title">
+                  <span class="slide__title-text slide__title-text_level_1"
+                    >Creativaly</span
+                  >
+                  <span class="slide__title-text slide__title-text_level_2"
+                    >professional</span
+                  >
+                </h4>
+
+                <div class="slide__desc slider__item-desc">
+                  <p class="slide__text text-underline">
+                    Fully responsive website mockup PSD template. Free for
+                    commercial & presonal <br />
+                    use. Portfolio & Contact Pages included.
+                  </p>
+
+                  <a
+                    class="button button_theme_islands button_size_m
+                           button_type_link button__control button_view_pseudo
+                           page__button i-bem"
+                    data-bem='{"button":{}}'
+                    role="link"
+                    href="#"
+                    ><span class="button__text">See works</span></a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- slider__content end -->
+        </div>
+        <!-- slider end -->
+      </section>
+      <!-- Banner Section end-->
+
+      <section class="blog blog_view_promo" id="blog">
+        <h3 class="blog__title section__title visually-hidden">Blog section</h3>
+
+        <img
+          class="img blog__img"
+          src="../creativaly/img/blog-bg-img.jpg"
+          alt="BLog image"
+          width="50%"
+        />
+
+        <div class="blog__desc">
+          <h4 class="blog__desc-title title">
+            Proin sodales eu massa
+            <br />vitae porta
+          </h4>
+
+          <p class="blog__desc-text text-underline">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula.
+            Maecenas at massa eget orci porttitor semper. Sed lobortis magna in
+            faucibus commodo. Ut purus odio, gravida sit amet laoreet at, dictum
+            et urna. Sed egestas mauris tellus, vitae facilisis nisi pretium
+            imperdiet. Donec dapibus mi a mauris rhoncus, a vehicula nibh
+            porttitor. Duis nisl magna, sodales vel felis eu, luctus facilisis
+            nibh. Mauris placerat viverra lectus at ornare. Maecenas malesuada
+            egestas consequat. Donec et aliquam eros. Sed pulvinar nunc quis
+            tristique condimentum. Sed nec metus lorem.
+          </p>
+          <a
+            class="button button_theme_islands button_size_m button_type_link
+                   button__control button_view_pseudo page__button i-bem"
+            data-bem='{"button":{}}'
+            role="link"
+            href="#"
+            ><span class="button__text">Read more</span></a
+          >
+        </div>
+      </section>
+      <!-- Blog Section end -->
+
+      <!-- Works Section -->
+      <section class="works section" id="works">
+        <div class="works__content">
+          <h2 class="works__title title section__title text-underline">
+            Featured works
+          </h2>
+
+          <div class="slider slider_view_works works__slider">
+            <div class="slider__content">
+              <ul class="slider__dots list">
+                <li class="slider__dot slider__dot_active"></li>
+                <li class="slider__dot"></li>
+                <li class="slider__dot"></li>
+                <li class="slider__dot"></li>
+              </ul>
+
+              <ul class="slider__list slides list">
+                <li class="slide slide_view_works slider__item">
+                  <div class="slide__content">
+                    <div class="slide__imac-wrap">
+                      <img
+                        class="slide__img slide__imac-img img"
+                        src="./img/works/imac-img.png"
+                        alt="Imac image"
+                        width="700px"
+                      />
+                    </div>
+                    <div class="slide__iphone-wrap">
+                      <img
+                        class="slide__img slide__iphone-img img"
+                        src="./img/works/iphone-img.png"
+                        alt="Iphone image"
+                        width="130px"
+                      />
+                    </div>
+                    <!-- slide__iphone-wrap end-->
+                  </div>
+                  <!-- slide__content end -->
+                </li>
+              </ul>
+            </div>
+            <!-- slider__content end -->
+          </div>
+          <!-- slider end -->
+
+          <a
+            class="button button_theme_islands button_size_m button_type_link
+                   button__control button_view_pseudo page__button works__button
+                   i-bem"
+            data-bem='{"button":{}}'
+            role="link"
+            href="#"
+            ><span class="button__text">See all works</span></a
+          >
+        </div>
+        <!-- works__content -->
+      </section>
+      <!--- Works Section end -->
+
+      <!-- Service Section -->
+      <section class="services section" id="services">
+        <div class="services__content">
+          <h2 class="services__title title section__title text-underline">
+            Our services
+          </h2>
+
+          <ul class="services__list list">
+            <li class="services__item item-service mobile-apps">
+              <span
+                class="item-service__icon mobile-apps__icon icon
+                       icon_service_mobile"
+              ></span>
+              <span
+                class="item-service__content mobile-apps__content
+                       item-service__arrow mobile-apps__arrow"
+              >
+                <span
+                  class="item-service__text text-underline text-underline_white"
+                >
+                  Mobile apps
+                </span>
+              </span>
+            </li>
+            <li class="services__item item-service web-design">
+              <span
+                class="item-service__icon web-design__icon icon 
+                       icon_service_browser"
+              ></span>
+              <span
+                class="item-service__content web-design__content
+                       item-service__arrow web-design_arrow"
+              >
+                <span
+                  class="item-service__text text-underline text-underline_white"
+                >
+                  Website design & coding
+                </span>
+              </span>
+            </li>
+            <li class="services__item item-service identity-creation">
+              <span
+                class="item-service__icon identity-creation__icon icon
+                       icon_service_pencil"
+              ></span>
+              <span
+                class="item-service__content identity-creation__content
+                       item-service__arrow identity-creation__arrow"
+              >
+                <span
+                  class="item-service__text text-underline text-underline_white"
+                >
+                  Identity creation
+                </span>
+              </span>
+            </li>
+            <li class="services__item item-service brand-promotion">
+              <span
+                class="item-service__icon brand-promotion__icon icon
+                       icon_service_megaphone"
+              ></span>
+              <span
+                class="item-service__content brand-promotion__content
+                       item-service__arrow brand-promotion__arrow"
+              >
+                <span
+                  class="item-service__text text-underline text-underline_white"
+                >
+                  Brand promotion
+                </span>
+              </span>
+            </li>
+            <li class="services__item item-service graphiс-design">
+              <span
+                class="item-service__icon graphiс-design__icon icon
+                       icon_service_paintbrush"
+              ></span>
+              <span
+                class="item-service__content graphiс-design__content
+                       item-service__arrow graphiс-design__arrow"
+              >
+                <span
+                  class="item-service__text text-underline text-underline_white"
+                >
+                  Graphiс design
+                </span>
+              </span>
+            </li>
+            <li class="services__item item-service motion-dinamics">
+              <span
+                class="item-service__icon motion-dinamics__icon icon
+                       icon_service_movietape"
+              ></span>
+              <span
+                class="item-service__content motion-dinamics__content
+                       item-service__arrow motion-dinamics__arrow"
+              >
+                <span
+                  class="item-service__text text-underline text-underline_white"
+                >
+                  Motion dinamics
+                </span>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <!-- services__content -->
+      </section>
+      <!-- Service Section end-->
+
+      <!-- About Section -->
+      <section class="about about__backdrop page__about section" id="about">
+        <div class="about__content">
+          <h2 class="about__title title section__title">
+            About us
+          </h2>
+
+          <p class="about__text text-underline text-underline_white wrapper">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula.
+            Maecenas at massa eget orci porttitor semper. Sed lobortis magna in
+            faucibus commodo. Ut purus odio, gravida sit amet laoreet at, dictum
+            et urna. Sed egestas mauris tellus, vitae facilisis nisi pretium
+            imperdiet. Donec dapibus mi a mauris rhoncus, a vehicula nibh
+            porttitor.
+          </p>
+
+          <ul class="about__list list">
+            <li class="about__item employee-card employee-card__content">
+              <div class="employee-card__img-overlay">
+                <img
+                  class="employee-card__img"
+                  src="./img/about/amploee-1.jpg"
+                  alt="Ammployee 1"
+                  width="100%"
+                />
+              </div>
+
+              <p class="employee-card__name">Joann Henry Doe</p>
+
+              <ul class="socials socials_size_s employee-card__socials list">
+                <li class="socials__item">
+                  <div class="socials__item-hover-overlay"></div>
+                  <a
+                    class="socials__icon icon icon_social_skype"
+                    href="skype:joannhenry?call"
+                  >
+                    <span class="socials__name visually-hidden">Skype</span>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <div class="socials__item-hover-overlay"></div>
+                  <a
+                    class="socials__icon icon icon_social_dribbble"
+                    href="https://dribbble.com/joannhenry"
+                    target="_blank"
+                  >
+                    <span class="socials__name visually-hidden">Dribbble</span>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <div class="socials__item-hover-overlay"></div>
+                  <a
+                    class="socials__icon icon icon_social_twitter"
+                    href="https://twitter.com/joannhenry"
+                    target="_blank"
+                  >
+                    <span class="socials__name visually-hidden">Twitter</span>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <div class="socials__item-hover-overlay"></div>
+                  <a
+                    class="socials__icon icon icon_social_google-pluse"
+                    href="https://support.google.com/plus/?hl=ru#topic=9259565"
+                    target="_blank"
+                  >
+                    <span class="socials__name visually-hidden"
+                      >Google pluse</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="about__item employee-card employee-card__content">
+              <div class="employee-card__img-overlay">
+                <img
+                  class="employee-card__img"
+                  src="./img/about/amploee-2.jpg"
+                  alt="Ammployee 1"
+                  width="100%"
+                />
+              </div>
+
+              <p class="employee-card__name">Christropher london</p>
+
+              <ul class="socials socials_size_s employee-card__socials list">
+                <li class="socials__item">
+                  <div class="socials__item-hover-overlay"></div>
+                  <a
+                    class="socials__icon icon icon_social_skype"
+                    href="skype:christropherlondon?call"
+                  >
+                    <span class="socials__name visually-hidden">Skype</span>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <div class="socials__item-hover-overlay"></div>
+                  <a
+                    class="socials__icon icon icon_social_dribbble"
+                    href="https://dribbble.com/christropherlondon"
+                    target="_blank"
+                  >
+                    <span class="socials__name visually-hidden">Dribbble</span>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <div class="socials__item-hover-overlay"></div>
+                  <a
+                    class="socials__icon icon icon_social_twitter"
+                    href="https://twitter.com/christropherlondon"
+                    target="_blank"
+                  >
+                    <span class="socials__name visually-hidden">Twitter</span>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <div class="socials__item-hover-overlay"></div>
+                  <a
+                    class="socials__icon icon icon_social_google-pluse"
+                    href="https://support.google.com/plus/?hl=ru#topic=9259565"
+                    target="_blank"
+                  >
+                    <span class="socials__name visually-hidden"
+                      >Google pluse</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="about__item employee-card employee-card__content">
+              <div class="employee-card__img-overlay">
+                <img
+                  class="employee-card__img"
+                  src="./img/about/amploee-3.jpg"
+                  alt="Ammployee 1"
+                  width="100%"
+                />
+              </div>
+
+              <p class="employee-card__name">lovy puppy</p>
+
+              <ul class="socials socials_size_s employee-card__socials list">
+                <li class="socials__item">
+                  <div class="socials__item-hover-overlay"></div>
+                  <a
+                    class="socials__icon icon icon_social_skype"
+                    href="skype:lovypuppy?call"
+                  >
+                    <span class="socials__name visually-hidden">Skype</span>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <div class="socials__item-hover-overlay"></div>
+                  <a
+                    class="socials__icon icon icon_social_dribbble"
+                    href="https://dribbble.com/lovypuppy"
+                    target="_blank"
+                  >
+                    <span class="socials__name visually-hidden">Dribbble</span>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <div class="socials__item-hover-overlay"></div>
+                  <a
+                    class="socials__icon icon icon_social_twitter"
+                    href="https://twitter.com/lovypuppy"
+                    target="_blank"
+                  >
+                    <span class="socials__name visually-hidden">Twitter</span>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <div class="socials__item-hover-overlay"></div>
+                  <a
+                    class="socials__icon icon icon_social_google-pluse"
+                    href="https://support.google.com/plus/?hl=ru#topic=9259565"
+                    target="_blank"
+                  >
+                    <span class="socials__name visually-hidden"
+                      >Google pluse</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- about__content end -->
+      </section>
+      <!-- End About Section -->
+
+      <!-- Testimonials Section -->
+      <section class="testimonials section container">
+        <div class="testimonials__content wrapper">
+          <h2 class="testimonials__title title section__title text-underline">
+            Testimonials
+          </h2>
+
+          <ul class="testimonials__list list">
+            <li class="testimonials__item">
+              <figure class="testimonials__quote quote">
+                <blockquote class="quote__content">
+                  <p class="quote__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse sed leo tellus. Praesent nec vehicula ligula,
+                    non laoreet ligula. Maecenas at massa eget orci porttitor
+                    semper. Sed lobortis magna in faucibus commodo. Ut purus
+                    odio, gravida sit amet laoreet at, dictum et urna. Sed
+                    egestas mauris tellus, vitae facilisis nisi pretium
+                    imperdiet. Donec dapibus mi a mauris rhoncus, a vehicula
+                    nibh porttitor.
+                  </p>
+                </blockquote>
+
+                <figcaption class="quote__author">
+                  Johm Henry Doe, ABC Company, St. Louis
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+
+      <!-- Subscribtion Section begin -->
+      <section class="subscription section">
+        <div class="subscription__content">
+          <h2
+            class="subscription__title title section__title text-underline 
+                   text-underline_white"
+          >
+            Subscribe to our newsletter
+          </h2>
+
+          <form action="#" class="form subscription__form">
+            <ul class="form__list list">
+              <li class="form__item">
+                <span
+                  class="input input_theme_islands input_size_m input_has-clear 
+                         i-bem subscription__input"
+                  data-bem='{"input":{}}'
+                  ><span class="input__box"
+                    ><input
+                      class="input__control subscription__input-control"
+                      type="email"
+                      name="customer_email"
+                      placeholder="Enter Your Email Address"
+                      required/><span
+                      class="input__clear subscription__input-clear"
+                    ></span
+                  ></span>
+                </span>
+              </li>
+              <li class="form__item">
+                <button
+                  class="button button_theme_islands button_size_m button_type_submit
+                         button__control button_view_plain subscription__button i-bem"
+                  data-bem='{"button":{}}'
+                  role="button"
+                  type="submit"
+                >
+                  <span class="button__text">Submit</span>
+                </button>
+              </li>
+            </ul>
+          </form>
+
+          <a class="logo subscription__logo link" href="#">
+            <span class="logo__text"
+              ><span class="logo__text logo__text_bold">One</span>town
+            </span>
+          </a>
+
+          <ul
+            class="socials socials_size_m socials__content subscription__socials 
+                   list"
+          >
+            <li class="socials__item">
+              <div class="socials__item-hover-overlay"></div>
+              <a
+                class="socials__icon icon icon_social_twitter"
+                href="https://twitter.com/realdonaldtrump"
+                target="_blank"
+              >
+                <span class="socials__name visually-hidden">Twitter</span>
+              </a>
+            </li>
+            <li class="socials__item">
+              <div class="socials__item-hover-overlay"></div>
+              <a
+                class="socials__icon icon icon_social_facebook"
+                href="https://www.facebook.com/DonaldTrump/"
+                target="_blank"
+              >
+                <span class="socials__name visually-hidden">Facebook</span>
+              </a>
+            </li>
+            <li class="socials__item">
+              <div class="socials__item-hover-overlay"></div>
+              <a
+                class="socials__icon icon icon_social_pinterest"
+                href="https://www.pinterest.com/DonaldTrump/"
+                target="_blank"
+              >
+                <span class="socials__name visually-hidden">Pinterest</span>
+              </a>
+            </li>
+            <li class="socials__item">
+              <div class="socials__item-hover-overlay"></div>
+              <a
+                class="socials__icon icon icon_social_linkedin"
+                href="https://www.linkedin.com/company/donaldj.trumpforpresidentinc./about/"
+                target="_blank"
+              >
+                <span class="socials__name visually-hidden">LinkedIn</span>
+              </a>
+            </li>
+            <li class="socials__item">
+              <div class="socials__item-hover-overlay"></div>
+              <a
+                class="socials__icon icon icon_social_skype"
+                href="skype:+1234567890?call"
+              >
+                <span class="socials__name visually-hidden">Skype</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- subscription__content end -->
+      </section>
+      <!-- Subscribtion Section end-->
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer footer_view_page page__footer">
+      <div class="footer__layout container">
+        <nav
+          class="nav nav_theme_divider nav_size_s nav_color_gray footer__nav"
+        >
+          <ul class="nav__list list">
+            <li class="nav__item nav__item-divider">
+              <a class="link nav__link" href="#about">About us</a>
+            </li>
+            <li class="nav__item nav__item-divider">
+              <a class="link nav__link" href="#works">Work</a>
+            </li>
+            <li class="nav__item nav__item-divider">
+              <a class="link nav__link" href="#services">Services</a>
+            </li>
+            <li class="nav__item nav__item-divider">
+              <a class="link nav__link" href="#blog">Blog</a>
+            </li>
+            <li class="nav__item nav__item-divider">
+              <a class="link nav__link" href="#">Careers</a>
+            </li>
+            <li class="nav__item nav__item-divider">
+              <a class="link nav__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="contacts contacts__content footer__contacts">
+          <ul class="contacts__list list">
+            <li class="contacts__item">
+              <span class="contacts__name contacts__email">Email:</span
+              ><a
+                class="link contacts__link contacts__value"
+                href="mailto: info@domain.com"
+                >info@domain.com</a
+              >
+            </li>
+            <li class="contacts__item">
+              <span class="contacts__name contacts__phone-number"
+                >St.Louis:</span
+              >
+              <a
+                class="link contacts__link contacts__value"
+                href="tel: +71234567890"
+                >(123) 456 7890</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <div class="to-page-header page__home-ancor">
+      <a
+        class="button button_theme_islands button_size_m button_type_link
+               button__control i-bem to-page-header__button"
+        data-bem='{"button":{}}'
+        role="link"
+        href="#header"
+      >
+        <span class="icon icon_arrow_up"></span>
+        <span class="button__text visually-hidden">To page header</span></a
+      >
+    </div>
+  </body>
+</html>
